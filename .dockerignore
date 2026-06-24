@@ -1,0 +1,35 @@
+# Exclude Git and metadata
+.git
+.gitignore
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+*.pyc
+.venv/
+venv/
+env/
+ENV/
+
+# Local env files and secrets
+.env
+.env.local
+
+# IDEs
+.vscode/
+.idea/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Local artifacts and logs
+invoice.pdf
+*.log
+sms/drop/
+*.json
+
+# Other
+node_modules/
+*.swp

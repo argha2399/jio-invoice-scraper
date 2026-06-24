@@ -1,0 +1,35 @@
+[33mcommit c920e40a40aca10877d15db3df01692bd60f3b52[m
+Author: Argha Sengupta <argha@alternative-path.com>
+Date:   Wed Jun 24 21:12:56 2026 +0000
+
+    inital commit
+
+ .dockerignore            |  35 [32m+++++[m
+ .gitignore               |  50 [32m++++++[m
+ .pre-commit-config.yaml  |   7 [32m+[m
+ Dockerfile               |  20 [32m+++[m
+ Pipfile                  |  15 [32m++[m
+ Pipfile.lock             | 398 [32m+++++++++++++++++++++++++++++++++++++++++++++++[m
+ README.md                |  43 [32m+++++[m
+ app/__init__.py          |   0
+ app/client.py            |  29 [32m++++[m
+ app/scrape/__init__.py   |   0
+ app/scrape/scraper.py    |  74 [32m+++++++++[m
+ app/utils/__init__.py    |   0
+ app/utils/aws.py         | 128 [32m+++++++++++++++[m
+ lambda/lambda_handler.py |  11 [32m++[m
+ 14 files changed, 810 insertions(+)
+ create mode 100644 .dockerignore
+ create mode 100644 .gitignore
+ create mode 100644 .pre-commit-config.yaml
+ create mode 100644 Dockerfile
+ create mode 100644 Pipfile
+ create mode 100644 Pipfile.lock
+ create mode 100644 README.md
+ create mode 100644 app/__init__.py
+ create mode 100644 app/client.py
+ create mode 100644 app/scrape/__init__.py
+ create mode 100644 app/scrape/scraper.py
+ create mode 100644 app/utils/__init__.py
+ create mode 100644 app/utils/aws.py
+ create mode 100644 lambda/lambda_handler.py
