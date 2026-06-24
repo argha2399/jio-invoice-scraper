@@ -8,8 +8,8 @@ logger = logging.getLogger(__name__)
 class S3Client:
     def __init__(
         self,
-        bucket: str = "zoho-android-automation",
-        region="ap-south-1",
+        bucket: str = None,
+        region: str = None,
         *args,
         **kwargs,
     ):
