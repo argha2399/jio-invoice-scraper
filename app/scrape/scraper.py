@@ -16,7 +16,7 @@ class InvoiceScraper:
 
     def __init__(self, *args, **kwargs):
         self.session = requests.Session()
-        self.mobile_number = "9667136661"
+        self.mobile_number = None
         self.otp = None
         self.s3_client = S3Client(bucket="zoho-android-automation", region="ap-south-1")
 
